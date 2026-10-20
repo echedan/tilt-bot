@@ -1,0 +1,49 @@
+# Example profile for tilt-bot.
+# Copy this to profile.yaml and fill in your own info:
+#   cp user/profile.example.yaml user/profile.yaml
+# profile.yaml holds personal info, so keep it in .gitignore.
+
+# --- Contact info ---
+first_name: Jane
+last_name: Doe
+email: jane.doe@example.com
+phone: "555-123-4567"          # keep the quotes so it stays text
+linkedin: https://www.linkedin.com/in/janedoe
+github: https://github.com/janedoe
+portfolio: https://janedoe.dev
+location: Austin, TX
+
+# --- Files ---
+resume_path: user/resume.pdf          # the resume uploaded to applications
+master_resume_path: user/master_resume.pdf  # full resume Claude reads for facts
+
+# --- Work eligibility ---
+work_authorized_us: true
+needs_sponsorship: false
+
+# --- Relocation ---
+willing_to_relocate: "Yes, with relocation assistance provided by the company"
+relocation_notes: >
+  For yes/no or dropdown questions about relocating, answer "Yes".
+  For free-text questions, say I'm open to relocating with company-provided
+  relocation assistance.
+
+# --- Compensation & availability ---
+salary_expectation: "Open / negotiable"
+salary_notes: >
+  If a number is required, give a range based on the posting's listed range.
+  Otherwise say negotiable based on total compensation.
+start_date: "Two weeks after offer"
+remote_preference: "Open to remote, hybrid, or on-site"
+
+# --- Common screening questions ---
+how_did_you_hear: "Company careers page"
+over_18: true
+previously_employed_here: false
+
+# --- Voluntary self-identification (optional) ---
+# Leave these as "Decline to self-identify" if you prefer not to answer.
+gender: "Decline to self-identify"
+race_ethnicity: "Decline to self-identify"
+veteran_status: "Decline to self-identify"
+disability_status: "Decline to self-identify"

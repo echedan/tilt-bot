@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tilt-bot"
+version = "0.1.0"
+description = "LLM-assisted job application tooling"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+tilt-llm = "tilt_bot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

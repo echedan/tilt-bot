@@ -1,0 +1,22 @@
+active directory
+software packaging
+software testing
+office 365
+microsoft teams
+copilot
+glean
+intune
+SCCM
+software deployment
+ITSM
+servicenow
+powershell
+python
+quality assurance testing
+qa testing
+troubleshooting
+ticketing
+customer support
+itil
+password resets
+requirements gathering

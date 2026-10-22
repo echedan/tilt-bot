@@ -1,0 +1,13 @@
+name: Main source guard
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-source:
+    runs-on: ubuntu-latest
+    steps:
+      - if: github.head_ref != 'staging'
+        run: |
+          echo "PRs into main must come from staging (got: ${{ github.head_ref }})"
+          exit 1
